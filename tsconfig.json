@@ -4,7 +4,7 @@
      "module": "es2022",
      "moduleResolution": "bundler",
      "strict": true,
-     "naUncheckedIndexedAccess": true,
+     "noUncheckedIndexedAccess": true,
      "exactOptionalPropertyTypes": true,
      "useUnknownInCatchVariables": true,
      "skipLibCheck": true,
