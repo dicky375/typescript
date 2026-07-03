@@ -11,6 +11,21 @@ const userAllPatch11 = {
 const readonlyUser = {
     id: 'u3',
     name: 'name',
-    email: 'test@example.com',
-    address: { line1: 'line3', city: 'city123' }
+    address: { line1: 'line3',
+        city: 'city123'
+    }
+};
+const publicUser = { id: 'u5', name: 'sangan34', };
+const omitUserN10 = {
+    id: 'u4',
+    name: 'name5',
+    address: {
+        line1: 'd',
+        city: 'f'
+    }
+};
+const dirN10 = {
+    admin: { id: 'u10', name: 'admin', address: { line1: 'line1', city: 'city' } },
+    user: { id: 'u11', name: 'user', address: { line1: 'line1', city: 'city' } },
+    editor: { id: 'u12', name: 'editor', address: { line1: 'line1', city: 'city' } }
 };
