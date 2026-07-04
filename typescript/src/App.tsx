@@ -1,8 +1,8 @@
 // import { UserCard } from "./components/01_RequireOptionalProps";
 // import { GreetA, GreetB } from "./components/02_DefaultProps";
 // import { Panel, RequiredChildrenPanel } from "./components/03_ChildrenReactNode";
-import { Button } from "./components/05_ComponentProps";
-
+//import { Button } from "./components/05_ComponentProps";
+import { Counter } from "./components/06_state";  
 function App() {
  
 
@@ -21,8 +21,10 @@ function App() {
         <RequiredChildrenPanel title="hello">
           some content here
         </RequiredChildrenPanel> */}
-        <Button variant="primary" onClick={() => alert("clicked")}>Text</Button>
+        {/* <Button variant="primary" onClick={() => alert("clicked")}>Text</Button> */}
+         <Counter />
     </>
+   
   );
 }
 
