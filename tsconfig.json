@@ -9,9 +9,13 @@
      "useUnknownInCatchVariables": true,
      "skipLibCheck": true,
      "rootDir": "src",
-     "outDir": "./dist"
+     "outDir": "./dist",
+     "jsx": "react-jsx",
+     "allows": true
+
      
 
   },
-  "include" : ["src", "typescript/src/components"]
+  "include" : ["src", "typescript/src/components"],
+  "exclude": ["node_modules"]
 }
